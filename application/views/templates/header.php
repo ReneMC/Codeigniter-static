@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>Codeigniter - Static Landing theme</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>asset/css/bootstrap.min.css" rel="stylesheet">
