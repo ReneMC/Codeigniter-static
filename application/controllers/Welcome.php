@@ -36,4 +36,14 @@ class Welcome extends CI_Controller {
 		echo time();
 	}
 
+	public function name($name){
+		if($name){
+			echo "Hello " . $name . "! nice to meet you.";
+		}
+		else {
+			echo "If you could input your name in the URL that would be great.";
+		}
+		
+	}
+
 }
