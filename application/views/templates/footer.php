@@ -15,7 +15,14 @@
                     
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <p class="copyright text-muted small">Copyright &copy; 2016. All Rights Reserved</p>
+                <div class="col-lg-6">
+                    <p class="copyright text-muted small">Copyright &copy; 2016. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="copyright text-muted small text-right">Page rendered in <strong>{elapsed_time}</strong></p>
+                </div>
+                
+                
             </div>
         </div>
     </div>
