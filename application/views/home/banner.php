@@ -7,7 +7,7 @@
             <div class="col-lg-12">
                 <div class="intro-message">
                     <h1>Codeigniter</h1>
-                    <h3>An easy, smart project template</h3>
+                    <h3>An easy, smart static web template</h3>
                     <hr class="intro-divider">
                     <ul class="list-inline intro-social-buttons">
                         <li>
