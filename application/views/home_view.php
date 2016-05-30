@@ -74,9 +74,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div id="body">
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 		<code>application/controllers/Home.php</code>
-		<a href="user_guide/">User Guide</a>
-		<a href="about">About</a>
-		<a href="contact">Contact</a>
+		<a href="../user_guide/">-User Guide</a>
+		<br>
+		<a href="date">-Date</a>
+		<br>
+		<a href="hola">-How are you?</a>
+		<br>
+		<a href="name">-Whats your name?</a>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>

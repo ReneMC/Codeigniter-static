@@ -27,7 +27,7 @@ class Welcome extends CI_Controller {
 	}
 
 	public function hola(){
-		echo "Hola!";
+		echo "Im fine, and you?";
 	}
 
 	public function date(){
@@ -38,10 +38,12 @@ class Welcome extends CI_Controller {
 
 	public function name($name){
 		if($name){
-			echo "Hello " . $name . "! nice to meet you.";
+			echo "YOU MADE IT!!" . "<br><br>" . "Hello " . $name . "! nice to meet you.";
 		}
 		else {
-			echo "If you could input your name in the URL that would be great.";
+			echo "<STRONG>WHAT HAVE YOU DONE?</STRONG> If you could just input your name in the URL that would be great.";
+			echo "<br><br>";
+			echo "You know, like, ".base_url('welcome/name')." + slash your_name.";
 		}
 		
 	}
